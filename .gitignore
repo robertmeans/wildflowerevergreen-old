@@ -1,0 +1,9 @@
+*.sass-cache*
+_docs
+node_modules
+*.rb
+config.rb
+_images/Thumbs.db
+*.db
+_notes
+.gitattributes

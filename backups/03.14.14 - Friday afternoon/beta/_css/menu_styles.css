@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+#wrapper_menu {
+	position: relative;
+	width: 100%;
+	max-width: 800px;
+	margin: 0px auto;
+	background-color: #fff;
+}
+#menu_header {
+	/*z-index: 1000;*/
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #fff;
+}
+#all {  /* toggle switch for menu */
+	width: 180px;
+	height: 26px;
+	display: inline-block;
+	border: 1px solid #999;
+	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+	background: #fff;
+	color: #666;
+	font-family: Tahoma, Geneva, sans-serif;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: 1p solid #fff;
+	float: left;
+}
+.sushi_menu_link {
+	line-height: 1em;
+	left: 350px;
+	bottom: 50px;
+	position: fixed;
+	/*z-index: 1115;*/	
+}
+/* 							  #navigation
+========================================= */
+nav a:hover { 
+	color: #fff;
+	background-color: #900;
+}

@@ -1,0 +1,1559 @@
+@import url("http://fonts.googleapis.com/css?family=Shadows+Into+Light|Maven+Pro");
+/* line 2, ../components/sass/_mobile.scss */
+h1 {
+  display: block;
+  position: relative;
+  float: none;
+  font-size: 1.4em;
+  line-height: 1.2em;
+  padding-right: 10px;
+}
+
+/* line 10, ../components/sass/_mobile.scss */
+h3 {
+  display: inline-block;
+  position: relative;
+  float: none;
+  clear: right;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+
+/* line 19, ../components/sass/_mobile.scss */
+h4 {
+  float: none;
+  clear: both;
+  width: 100%;
+  font-size: 1em;
+  margin: 8px auto;
+}
+
+/* line 26, ../components/sass/_mobile.scss */
+#text_container {
+  width: 91%;
+  margin: 10px 4.5% 00px 4.5%;
+}
+
+/* line 30, ../components/sass/_mobile.scss */
+#contact_container {
+  position: relative;
+  width: 100%;
+  margin: 20px 0px 40px 0px;
+  text-align: center;
+}
+
+/* line 36, ../components/sass/_mobile.scss */
+#mobile_info {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+/* line 43, ../components/sass/_mobile.scss */
+.top_pad {
+  padding-top: 10px;
+}
+
+/* line 46, ../components/sass/_mobile.scss */
+.left {
+  display: block;
+  float: left;
+  width: 50%;
+  text-align: right;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 54, ../components/sass/_mobile.scss */
+.right {
+  display: block;
+  float: left;
+  clear: right;
+  width: 40%;
+  text-align: left;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 63, ../components/sass/_mobile.scss */
+#menu_large_rt_info {
+  display: none;
+}
+
+/* 					    #menu_mobile navigation
+================================================ */
+/* line 68, ../components/sass/_mobile.scss */
+.large_screen {
+  /* turn off lg screen nav for menu page */
+  display: none;
+}
+
+/* line 71, ../components/sass/_mobile.scss */
+.sushi_menu {
+  display: none;
+}
+
+/* line 74, ../components/sass/_mobile.scss */
+.mobile {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  z-index: 500;
+  width: 100%;
+  height: 45px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  line-height: 1.8em;
+  color: #fff;
+  opacity: .85;
+  border-top: 1px solid #888;
+  background: #444444;
+  background: -moz-linear-gradient(top, #444444 0%, #111111 50%, black 51%, black 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #444444), color-stop(50%, #111111), color-stop(51%, black), color-stop(100%, black));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #444444 0%, #111111 50%, black 51%, black 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #444444 0%, #111111 50%, black 51%, black 100%);
+  /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #444444 0%, #111111 50%, black 51%, black 100%);
+  /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#000000',GradientType=0 );
+  /* IE6-9 */
+  background: linear-gradient(top, #444444 0%, #111111 50%, #000000 51%, #000000 100%);
+  /* W3C */
+}
+
+/* line 96, ../components/sass/_mobile.scss */
+.mobile ul {
+  width: 248px;
+  float: none;
+  margin: 0px auto;
+}
+
+/* line 101, ../components/sass/_mobile.scss */
+.mobile li {
+  width: 60px;
+  text-align: center;
+  color: #fff;
+  border-right: 1px solid #555;
+  border-left: 1px solid #222;
+}
+
+/* line 108, ../components/sass/_mobile.scss */
+.mobile ul a {
+  width: 60px;
+  height: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block;
+  font-weight: normal;
+  font-size: .9em;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  -moz-border-top-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+/* line 132, ../components/sass/_mobile.scss */
+.mobile li.end_left {
+  border-left: 1px solid transparent;
+}
+
+/* line 135, ../components/sass/_mobile.scss */
+.mobile li.end_right {
+  border-right: 1px solid transparent;
+}
+
+/* line 138, ../components/sass/_mobile.scss */
+#item-1, #item-2, #item-3, #item-4, #item-5, #item-6, #item-7, #item-8, #item-9 {
+  cursor: pointer;
+  background: #930;
+  color: white;
+  width: 100%;
+  margin-left: 0px;
+  border-top: 1px solid #900;
+  border-right: none;
+  border-bottom: 2px solid #fff;
+  border-left: none;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 162, ../components/sass/_mobile.scss */
+.contents {
+  border: none;
+  margin-top: -2px;
+  margin-bottom: 5px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+/* line 176, ../components/sass/_mobile.scss */
+.contents_last {
+  border: none;
+  margin-top: -2px;
+  margin-bottom: 5px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  /*	this puts the border inside the flexible container w/o messing with the overall width*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 195, ../components/sass/_mobile.scss */
+.item_description {
+  width: 90%;
+}
+
+/* line 198, ../components/sass/_mobile.scss */
+.add_item {
+  margin-top: 10px;
+}
+
+/* line 201, ../components/sass/_mobile.scss */
+.add_item_price {
+  margin-top: 10px;
+}
+
+/* line 204, ../components/sass/_mobile.scss */
+.red_warning {
+  padding: 8px 10px 8px 10px;
+}
+
+/* line 207, ../components/sass/_mobile.scss */
+.be_own_chef {
+  width: 100%;
+}
+
+/* 									     #sushi
+================================================ */
+/* line 212, ../components/sass/_mobile.scss */
+#item-1_sushi, #item-2_sushi, #item-3_sushi, #item-4_sushi, #item-5_sushi, #item-6_sushi {
+  cursor: pointer;
+  background: #000;
+  color: white;
+  width: 100%;
+  margin-left: 0px;
+  border-top: 1px solid #000;
+  border-right: none;
+  border-bottom: 2px solid #fff;
+  border-left: none;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 236, ../components/sass/_mobile.scss */
+.item_odd_first_sushi {
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+/* line 244, ../components/sass/_mobile.scss */
+.item_odd_price_first_sushi {
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+/* line 252, ../components/sass/_mobile.scss */
+.item_odd_sushi {
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+/* line 260, ../components/sass/_mobile.scss */
+.item_odd_price_sushi {
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+/* line 268, ../components/sass/_mobile.scss */
+.contents_sushi {
+  border: none;
+  margin-top: -2px;
+  margin-bottom: 5px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+/* line 282, ../components/sass/_mobile.scss */
+.contents_last_sushi {
+  border: none;
+  margin-top: -2px;
+  margin-bottom: 5px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  /*	this puts the border inside the flexible container w/o messing with the overall width*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 6, ../components/sass/_large.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 2em;
+  color: #636363;
+  background: white;
+}
+
+/*micro-clearfix by Nichoas Gallagher */
+/* line 17, ../components/sass/_large.scss */
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+
+/* line 21, ../components/sass/_large.scss */
+.cf:after {
+  clear: both;
+}
+
+/* for ie 6/7 (trigger hasLayout) */
+/* line 25, ../components/sass/_large.scss */
+.cf {
+  zoom: 1;
+}
+
+/*end micro-clearfix*/
+/* line 29, ../components/sass/_large.scss */
+.clear-fix {
+  clear: both;
+  line-height: 1px;
+}
+
+/* line 33, ../components/sass/_large.scss */
+p {
+  line-height: 1.2em;
+}
+
+/* line 36, ../components/sass/_large.scss */
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+/* line 41, ../components/sass/_large.scss */
+h1 {
+  display: block;
+  font-size: 1.8em;
+  color: #dc5c00;
+  margin: 0;
+}
+
+/* line 47, ../components/sass/_large.scss */
+h2 {
+  display: block;
+  font-size: 1.6em;
+  color: #dc5c00;
+  margin: 0;
+}
+
+/* line 53, ../components/sass/_large.scss */
+h3 {
+  display: block;
+  font-size: 1.2em;
+  margin: 0 auto;
+}
+
+/* line 58, ../components/sass/_large.scss */
+h4 {
+  display: block;
+  font-size: 1.2em;
+  color: #863608;
+  line-height: 1em;
+  margin: 15px 0;
+}
+
+/* line 65, ../components/sass/_large.scss */
+#wrapper #text_container p a {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+/* line 69, ../components/sass/_large.scss */
+#wrapper #text_container p a:hover {
+  text-decoration: underline;
+  color: #0000ff;
+}
+
+/* line 73, ../components/sass/_large.scss */
+.sushi {
+  color: #000;
+}
+
+/* line 76, ../components/sass/_large.scss */
+a.printable {
+  display: inline-block;
+  text-decoration: none;
+  color: #0000ff;
+  margin-bottom: 1em;
+}
+
+/* line 82, ../components/sass/_large.scss */
+a.printable:hover {
+  text-decoration: underline;
+}
+
+/* line 85, ../components/sass/_large.scss */
+#wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
+  background-color: #fff;
+}
+
+/* line 92, ../components/sass/_large.scss */
+#menu_header {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
+  background-color: #fff;
+}
+
+/* line 98, ../components/sass/_large.scss */
+#text_container {
+  position: relative;
+  float: left;
+  width: 91%;
+  margin: 40px 4.5% 20px 4.5%;
+}
+
+/* line 104, ../components/sass/_large.scss */
+#contact_container {
+  position: relative;
+  width: 100%;
+  margin: 50px 0px 40px 0px;
+  text-align: center;
+}
+
+/* line 110, ../components/sass/_large.scss */
+#mobile_info {
+  display: none;
+}
+
+/* line 113, ../components/sass/_large.scss */
+#menu_large_rt_info {
+  display: block;
+  position: absolute;
+  z-index: 30;
+  width: 40%;
+  margin-top: 50px;
+  left: 380px;
+}
+
+/* line 121, ../components/sass/_large.scss */
+.menu_large_rt_content {
+  display: block;
+  position: relative;
+  color: #000;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+/* line 129, ../components/sass/_large.scss */
+.plus {
+  display: inline-block;
+  background: url(../_images/plus.gif) no-repeat left center;
+  padding-right: 10px;
+  width: 10px;
+  height: 10px;
+}
+
+/* line 136, ../components/sass/_large.scss */
+.minus {
+  display: inline-block;
+  background: url(../_images/minus2.gif) no-repeat left center;
+  padding-right: 10px;
+  width: 10px;
+  height: 10px;
+}
+
+/* line 143, ../components/sass/_large.scss */
+#item-1, #item-2, #item-3, #item-4, #item-5, #item-6, #item-7, #item-8, #item-9, #item-10 {
+  float: left;
+  clear: both;
+  margin-left: 10px;
+  z-index: 100;
+  line-height: 1.2em;
+  cursor: pointer;
+  background: #930;
+  color: white;
+  width: 300px;
+  border: 1px solid #900;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-top-right-radius: 8px;
+  -moz-border-top-right-radius: 8px;
+  border-top-right-radius: 8px;
+  -webkit-border-top-left-radius: 8px;
+  -moz-border-top-left-radius: 8px;
+  border-top-left-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -moz-border-bottom-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  margin-bottom: 2px;
+}
+
+/* line 175, ../components/sass/_large.scss */
+#item-1:hover, #item-2:hover, #item-3:hover, #item-4:hover, #item-5:hover, #item-6:hover, #item-7:hover, #item-8:hover, #item-9:hover, #item-10:hover {
+  background: #c4541c;
+}
+
+/* line 178, ../components/sass/_large.scss */
+#item-1 {
+  margin-top: 25px;
+}
+
+/* line 181, ../components/sass/_large.scss */
+.contents {
+  display: none;
+  position: relative;
+  float: left;
+  clear: right;
+  z-index: 150;
+  background-color: #fffbcb;
+  margin-top: -8px;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 1000px;
+  border: 1px solid #900;
+  -webkit-border-bottom-right-radius: 15px;
+  -moz-border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  -webkit-border-top-left-radius: 15px;
+  -moz-border-top-left-radius: 15px;
+  border-top-left-radius: 15px;
+  /*	this puts the border inside the flexible container w/o messing with the overall width*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/* line 210, ../components/sass/_large.scss */
+.contents_last {
+  display: none;
+  position: relative;
+  float: left;
+  clear: right;
+  z-index: 150;
+  background-color: #fffbcb;
+  float: left;
+  clear: right;
+  margin-top: -8px;
+  margin-bottom: 75px;
+  width: 100%;
+  max-width: 1000px;
+  border: 1px solid #900;
+  -webkit-border-bottom-right-radius: 15px;
+  -moz-border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  -webkit-border-top-left-radius: 15px;
+  -moz-border-top-left-radius: 15px;
+  border-top-left-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /*	this puts the border inside the flexible container w/o messing with the overall width*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 241, ../components/sass/_large.scss */
+.category_includes {
+  display: block;
+  float: left;
+  clear: right;
+  width: 90%;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+/* line 249, ../components/sass/_large.scss */
+.category_description {
+  display: block;
+  float: left;
+  width: 75%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* line 256, ../components/sass/_large.scss */
+.category_description_price {
+  display: block;
+  float: left;
+  clear: right;
+  width: 20%;
+  color: #000;
+  margin-top: 10px;
+}
+
+/* line 264, ../components/sass/_large.scss */
+.substitute {
+  display: block;
+  float: left;
+  width: 60%;
+  margin-left: 10px;
+}
+
+/* line 270, ../components/sass/_large.scss */
+.substitute_price {
+  display: block;
+  float: left;
+  clear: right;
+  width: 30%;
+  color: #000;
+  padding-left: 5px;
+}
+
+/* line 278, ../components/sass/_large.scss */
+.item_first {
+  display: block;
+  float: left;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #900;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+/* line 290, ../components/sass/_large.scss */
+.item {
+  display: block;
+  float: left;
+  clear: right;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #900;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  padding-top: 5px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #a2a2a2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 310, ../components/sass/_large.scss */
+.item_price {
+  display: block;
+  float: left;
+  clear: right;
+  width: 10%;
+  text-align: right;
+  margin-right: 5px;
+  margin-top: 10px;
+  color: #000;
+  padding-top: 8px;
+}
+
+/* line 321, ../components/sass/_large.scss */
+.item_description {
+  display: block;
+  float: left;
+  clear: right;
+  line-height: 1.4em;
+  width: 80%;
+  margin-left: 10px;
+  padding-right: 5px;
+}
+
+/* line 330, ../components/sass/_large.scss */
+.add_item {
+  display: inline-block;
+  float: left;
+  line-height: 1.2em;
+  width: 65%;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+
+/* line 338, ../components/sass/_large.scss */
+.add_item_price {
+  display: inline-block;
+  float: left;
+  clear: right;
+  color: #000;
+  line-height: 1.2em;
+  width: 30%;
+  margin-top: 12px;
+}
+
+/* line 347, ../components/sass/_large.scss */
+.be_own_chef {
+  display: inline-block;
+  float: left;
+  clear: right;
+  width: 80%;
+  padding-left: 10px;
+  font-size: 1em;
+  line-height: 1.4em;
+  color: #900;
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #a2a2a2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+/* line 366, ../components/sass/_large.scss */
+.own_chef_col1 {
+  display: block;
+  float: left;
+  margin-top: 15px;
+  margin-left: 5%;
+  text-align: left;
+  line-height: 1.5em;
+  width: 40%;
+}
+
+/* line 375, ../components/sass/_large.scss */
+.own_chef_col2 {
+  display: block;
+  float: left;
+  clear: right;
+  margin-top: 15px;
+  text-align: left;
+  line-height: 1.5em;
+  width: 40%;
+  padding-left: 5px;
+}
+
+/* line 385, ../components/sass/_large.scss */
+.sides_n_such_left {
+  display: block;
+  float: left;
+  text-align: left;
+  line-height: 1.2em;
+  width: 30%;
+  margin-left: 10px;
+  margin-bottom: 6px;
+}
+
+/* line 394, ../components/sass/_large.scss */
+.sides_n_such_left_price {
+  display: block;
+  float: left;
+  clear: right;
+  text-align: left;
+  width: 15%;
+  line-height: 1.2em;
+  margin-left: 2%;
+  margin-bottom: 6px;
+}
+
+/* line 404, ../components/sass/_large.scss */
+.sides_n_such_right {
+  display: block;
+  float: left;
+  text-align: left;
+  line-height: 1.2em;
+  width: 30%;
+  margin-bottom: 6px;
+}
+
+/* line 412, ../components/sass/_large.scss */
+.sides_n_such_right_price {
+  text-align: left;
+  display: block;
+  float: left;
+  clear: right;
+  width: 15%;
+  line-height: 1.5em;
+  margin-left: 2%;
+  margin-bottom: 6px;
+}
+
+/* line 422, ../components/sass/_large.scss */
+.red_warning {
+  display: block;
+  float: left;
+  clear: right;
+  position: relative;
+  background-color: #ca810e;
+  color: #fff;
+  font-size: .9em;
+  line-height: 1.2em;
+  padding: 10px 20px 10px 20px;
+  width: 96%;
+  margin: 14px 10px 5px 5px;
+  border: 1px solid red;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 443, ../components/sass/_large.scss */
+.blt {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #900;
+  display: block;
+  width: 85%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  float: left;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #a2a2a2;
+  padding-top: 5px;
+}
+
+/* line 458, ../components/sass/_large.scss */
+.vga {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #900;
+  display: block;
+  width: 85%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  float: left;
+  padding-top: 5px;
+}
+
+/* line 470, ../components/sass/_large.scss */
+.blt_price {
+  display: block;
+  width: 10%;
+  float: left;
+  clear: right;
+  text-align: right;
+  margin-right: 5px;
+  margin-top: 5px;
+  color: #000;
+  padding-top: 5px;
+}
+
+/* line 481, ../components/sass/_large.scss */
+.no_side {
+  font-size: 1em;
+  font-style: italic;
+  color: #666;
+  display: block;
+  float: left;
+  width: 95%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* line 491, ../components/sass/_large.scss */
+.soft_drinks {
+  display: block;
+  float: left;
+  width: 74%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* line 498, ../components/sass/_large.scss */
+.soft_drink_price {
+  display: block;
+  float: left;
+  clear: right;
+  width: 15%;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+/* line 506, ../components/sass/_large.scss */
+.beverages_top {
+  text-align: left;
+  display: block;
+  float: left;
+  width: 56%;
+  line-height: 1.2em;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+/* line 516, ../components/sass/_large.scss */
+.beverages {
+  text-align: left;
+  display: block;
+  float: left;
+  width: 56%;
+  line-height: 1.2em;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+/* line 526, ../components/sass/_large.scss */
+.beverages_price_top {
+  text-align: left;
+  display: block;
+  float: left;
+  clear: right;
+  width: 33%;
+  line-height: 1.2em;
+  margin-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 537, ../components/sass/_large.scss */
+.beverages_price {
+  display: block;
+  float: left;
+  clear: right;
+  width: 33%;
+  line-height: 1.2em;
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 548, ../components/sass/_large.scss */
+.split_charge {
+  background-color: #fff;
+  font-size: .9em;
+  line-height: 1.2em;
+  text-align: center;
+  padding: 10px;
+  width: 96%;
+  position: relative;
+  margin: 14px 5px 5px 5px;
+  display: block;
+  float: left;
+  border: 1px solid #757575;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 568, ../components/sass/_large.scss */
+.sushi_menu_link {
+  display: block;
+  float: left;
+  clear: both;
+  margin: 12px 0px 5px 0px;
+}
+
+/* line 574, ../components/sass/_large.scss */
+.sushi_homepage_text {
+  display: block;
+  float: left;
+  clear: both;
+  line-height: 1.4em;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 582, ../components/sass/_large.scss */
+footer {
+  display: block;
+  position: relative;
+  float: none;
+  clear: both;
+  border-top: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 1000px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  margin: 30px auto 30px auto;
+  text-align: center;
+  color: #a5a5a5;
+  font-size: .8em;
+  line-height: 1.4em;
+}
+
+/* 							   #menu navigation
+================================================ */
+/* line 604, ../components/sass/_large.scss */
+.mobile {
+  display: none;
+}
+
+/* line 607, ../components/sass/_large.scss */
+.large_screen {
+  display: block;
+  position: absolute;
+  margin-top: -1.9em;
+  float: left;
+  clear: right;
+  width: 100%;
+  max-width: 1000px;
+  border-bottom: 1px solid #900;
+}
+
+/* line 618, ../components/sass/_large.scss */
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+
+/* line 624, ../components/sass/_large.scss */
+.large_screen ul a {
+  display: block;
+  line-height: 1.4em;
+  background-color: #fff;
+  color: #757575;
+  text-transform: none;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: .9em;
+  width: 80px;
+  text-align: center;
+  padding: 4px 10px 4px 5px;
+  margin-top: 0px;
+  margin-bottom: -1px;
+  margin-right: 5px;
+  border-top: 1px solid #900;
+  border-right: 1px solid #900;
+  border-bottom: 1px solid #900;
+  border-left: 1px solid #900;
+  -moz-border-top-left-radius: 12px;
+  -webkit-border-top-left-radius: 12px;
+  border-top-left-radius: 12px;
+  -moz-border-top-right-radius: 12px;
+  -webkit-border-top-right-radius: 12px;
+  border-top-right-radius: 12px;
+  -webkit-box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* line 653, ../components/sass/_large.scss */
+.large_screen ul a:hover {
+  background-color: #900;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 658, ../components/sass/_large.scss */
+.large_screen li.current a {
+  text-decoration: none;
+  background-color: #fff;
+  color: #757575;
+  border-bottom: 1px solid #fff;
+  cursor: default;
+}
+
+/* line 665, ../components/sass/_large.scss */
+.top a {
+  display: block;
+  float: right;
+  z-index: 151;
+  clear: both;
+  margin-bottom: -27px;
+  margin-right: 40px;
+}
+
+/* line 675, ../components/sass/_large.scss */
+.no_menu {
+  margin-left: 223px;
+}
+
+/* line 678, ../components/sass/_large.scss */
+.large_screen .all {
+  /* toggle switch for menu */
+  float: left;
+  width: 180px;
+  margin-right: 15px;
+  margin-left: 10px;
+  padding: 4px 8px 4px 8px;
+  color: #fff;
+  background-color: #c4541c;
+}
+
+/* line 687, ../components/sass/_large.scss */
+.large_screen .all:hover {
+  background: #f5905e;
+  color: #fff;
+}
+
+/* 					          #sushi navigation
+================================================ */
+/* line 693, ../components/sass/_large.scss */
+.sushi_menu {
+  display: block;
+  position: absolute;
+  margin-top: -1.9em;
+  float: left;
+  clear: right;
+  width: 100%;
+  max-width: 1000px;
+  border-bottom: 1px solid #000;
+}
+
+/* line 704, ../components/sass/_large.scss */
+.sushi_menu a {
+  float: left;
+  line-height: 1.4em;
+  background-color: #fff;
+  color: #757575;
+  text-transform: none;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: .9em;
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  padding: 4px 10px 4px 5px;
+  margin-top: 0px;
+  margin-bottom: -1px;
+  margin-right: 5px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  -moz-border-top-left-radius: 12px;
+  -webkit-border-top-left-radius: 12px;
+  border-top-left-radius: 12px;
+  -moz-border-top-right-radius: 12px;
+  -webkit-border-top-right-radius: 12px;
+  border-top-right-radius: 12px;
+  -webkit-box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* line 734, ../components/sass/_large.scss */
+.sushi_menu a:hover {
+  color: #fff;
+  background-color: #757575;
+}
+
+/* line 738, ../components/sass/_large.scss */
+.sushi_menu .all {
+  /* toggle switch for menu */
+  float: left;
+  width: 180px;
+  margin-right: 15px;
+  margin-left: 10px;
+  padding: 4px 8px 4px 8px;
+  color: #fff;
+  background-color: #757575;
+}
+
+/* line 747, ../components/sass/_large.scss */
+.sushi_menu .all:hover {
+  background: #ccc;
+  color: #000;
+}
+
+/* line 751, ../components/sass/_large.scss */
+.sushi_menu ul .current a {
+  border-bottom: 1px solid #fff;
+  color: #757575;
+  background-color: #fff;
+  cursor: default;
+}
+
+/* line 757, ../components/sass/_large.scss */
+.sushi_menu ul .current a:hover {
+  border-bottom: 1px solid #fff;
+  color: #757575;
+  background-color: #fff;
+  cursor: default;
+}
+
+/* 									     #sushi
+================================================ */
+/* line 765, ../components/sass/_large.scss */
+#item-1_sushi, #item-2_sushi, #item-3_sushi, #item-4_sushi, #item-5_sushi, #item-6_sushi, #item-7_sushi, #item-8_sushi, #item-9_sushi, #item-10_sushi {
+  float: left;
+  clear: both;
+  margin-left: 10px;
+  z-index: 100;
+  line-height: 1.2em;
+  cursor: pointer;
+  background: #000;
+  color: white;
+  width: 300px;
+  border: 1px solid #000;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-top-right-radius: 8px;
+  -moz-border-top-right-radius: 8px;
+  border-top-right-radius: 8px;
+  -webkit-border-top-left-radius: 8px;
+  -moz-border-top-left-radius: 8px;
+  border-top-left-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -moz-border-bottom-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  margin-bottom: 2px;
+}
+
+/* line 797, ../components/sass/_large.scss */
+#item-1_sushi:hover, #item-2_sushi:hover, #item-3_sushi:hover, #item-4_sushi:hover, #item-5_sushi:hover, #item-6_sushi:hover, #item-7_sushi:hover, #item-8_sushi:hover, #item-9_sushi:hover, #item-10_sushi:hover {
+  background: #757575;
+}
+
+/* line 800, ../components/sass/_large.scss */
+#item-1_sushi {
+  margin-top: 25px;
+}
+
+/* line 803, ../components/sass/_large.scss */
+.contents_sushi {
+  display: none;
+  position: relative;
+  float: left;
+  clear: right;
+  z-index: 150;
+  background-color: #fff;
+  margin-top: -8px;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 1000px;
+  border: 1px solid #000;
+  -webkit-border-bottom-right-radius: 15px;
+  -moz-border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  -webkit-border-top-left-radius: 15px;
+  -moz-border-top-left-radius: 15px;
+  border-top-left-radius: 15px;
+  /*	this puts the border inside the flexible container w/o messing with the overall width*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/* line 832, ../components/sass/_large.scss */
+.contents_last_sushi {
+  display: none;
+  position: relative;
+  float: left;
+  clear: right;
+  z-index: 150;
+  background-color: #fff;
+  float: left;
+  clear: right;
+  margin-top: -8px;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 1000px;
+  border: 1px solid #000;
+  -webkit-border-bottom-right-radius: 15px;
+  -moz-border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  -webkit-border-top-left-radius: 15px;
+  -moz-border-top-left-radius: 15px;
+  border-top-left-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /*	this puts the border inside the flexible container w/o messing with the overall width*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 863, ../components/sass/_large.scss */
+.category_description_sushi {
+  display: block;
+  float: left;
+  clear: right;
+  text-align: right;
+  padding-right: 10px;
+  width: 85%;
+  max-width: 615px;
+  margin-top: 15px;
+}
+
+/* line 873, ../components/sass/_large.scss */
+.item_odd_first_sushi {
+  line-height: 1em;
+  background-color: #ebebeb;
+  display: block;
+  float: left;
+  width: 70%;
+  max-width: 500px;
+  margin-left: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 10px;
+  padding-left: 5px;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+/* line 892, ../components/sass/_large.scss */
+.item_odd_price_first_sushi {
+  display: block;
+  float: left;
+  clear: right;
+  line-height: 1em;
+  background-color: #ebebeb;
+  width: 15%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 10px;
+  padding-right: 5px;
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* line 910, ../components/sass/_large.scss */
+.item_odd_sushi {
+  line-height: 1em;
+  background-color: #ebebeb;
+  display: block;
+  float: left;
+  width: 70%;
+  max-width: 500px;
+  margin-left: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+/* line 928, ../components/sass/_large.scss */
+.item_odd_price_sushi {
+  display: block;
+  float: left;
+  clear: right;
+  line-height: 1em;
+  background-color: #ebebeb;
+  width: 15%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 5px;
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* line 945, ../components/sass/_large.scss */
+.item_even_sushi {
+  display: block;
+  float: left;
+  line-height: 1em;
+  background-color: #fff;
+  width: 70%;
+  max-width: 500px;
+  margin-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+/* line 957, ../components/sass/_large.scss */
+.item_even_price_sushi {
+  display: block;
+  float: left;
+  clear: right;
+  line-height: 1em;
+  background-color: #fff;
+  width: 15%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+}
+
+/* line 968, ../components/sass/_large.scss */
+.sushi_drinks_left_first_sushi {
+  display: block;
+  float: left;
+  width: 40%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  line-height: 1.2em;
+}
+
+/* line 977, ../components/sass/_large.scss */
+.sushi_drinks_left_sushi {
+  display: block;
+  float: left;
+  width: 40%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  line-height: 1.2em;
+}
+
+/* line 985, ../components/sass/_large.scss */
+.sushi_drinks_right_first_sushi {
+  display: block;
+  float: left;
+  clear: right;
+  width: 40%;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  line-height: 1.2em;
+}
+
+/* line 995, ../components/sass/_large.scss */
+.sushi_drinks_right_sushi {
+  display: block;
+  float: left;
+  clear: right;
+  width: 40%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  line-height: 1.2em;
+}

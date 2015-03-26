@@ -1,0 +1,302 @@
+@charset "utf-8";
+h1 {
+	display: block;
+	position: relative;		
+	float: none;
+	font-size: 1.4em;
+	line-height: 1.2em;
+	padding-right: 10px;
+}
+h3 {
+	display: inline-block;
+	position: relative;	
+	float: none;
+	clear: right;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	font-weight: bold;
+}
+h4 {
+	float: none;
+	clear: both;
+	width: 100%;
+	font-size: 1em;
+	margin: 8px auto;	
+}
+#text_container {
+	width: 91%;
+	margin: 10px 4.5% 00px 4.5%;
+}
+#contact_container {
+	position: relative;
+	float: ;
+	width: 100%;
+	margin: 20px 0px 40px 0px;
+	text-align: center;
+}
+#mobile_info {
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+	line-height: 1.2em;	
+	text-align: center;
+}
+.top_pad {
+	padding-top: 10px;
+}
+.left {
+	display: block;
+	float: left;
+	width: 50%;
+	text-align: right;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+.right {
+	display: block;
+	float: left;
+	clear: right;
+	width: 40%;
+	text-align: left;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+#menu_large_rt_info {
+	display: none;
+}
+/* 					    #menu_mobile navigation
+================================================ */
+.large_screen { /* turn off lg screen nav for menu page */
+	display: none;
+}
+.sushi_menu {
+	display: none;
+}
+.mobile {
+	display: block;
+	position: fixed;
+	bottom: 0;
+	z-index: 500;
+	width: 100%;
+	height: 45px;
+	padding-top: 5px;
+	padding-bottom: 5px;	
+	line-height: 1.2em;
+	color: #fff;	
+	opacity: .85;
+	border-top: 1px solid #888;
+	background: #444444;
+	background: -moz-linear-gradient(top, #444444 0%, #111111 50%, #000000 51%, #000000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#444444), color-stop(50%,#111111), color-stop(51%,#000000), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #444444 0%,#111111 50%,#000000 51%,#000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #444444 0%,#111111 50%,#000000 51%,#000000 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #444444 0%,#111111 50%,#000000 51%,#000000 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #444444 0%,#111111 50%,#000000 51%,#000000 100%); /* W3C */
+}
+.mobile ul {
+	width: 248px;	
+	float: none;
+	margin: 0px auto;
+}
+.mobile li {
+	width: 60px;
+	text-align: center; 
+	color: #fff;
+	border-right: 1px solid #555;
+	border-left: 1px solid #222;
+}
+.mobile ul a {
+	width: 60px;
+	height: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;	
+	display: block;
+	font-weight: normal;
+	font-size: .9em;
+	color: #fff;
+ 	text-decoration: none;
+	padding: 5px 0px 5px 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	-moz-border-top-left-radius: 0px;
+	-webkit-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+	-moz-border-top-right-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+.mobile li.end_left {
+	border-left: 1px solid transparent;
+}
+.mobile li.end_right {
+	border-right: 1px solid transparent;
+}
+#item-1, #item-2, #item-3, #item-4, #item-5, #item-6, #item-7, #item-8, #item-9 {
+	cursor: pointer;
+	background: #930;
+	color: white;
+	width: 100%;
+	margin-left: 0px;
+	border-top: 1px solid #900;
+	border-right: none;
+	border-bottom: 2px solid #fff;
+	border-left: none;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;	
+	margin-bottom: 0px;
+}
+.contents {
+	border: none;
+	margin-top: -2px;
+	margin-bottom: 5px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;		
+}
+.contents_last {
+	border: none;
+	margin-top: -2px;
+	margin-bottom: 5px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;	
+	/*	this puts the border inside the flexible container w/o messing with the overall width*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.item_description {
+	width: 90%;
+}
+.add_item {
+	margin-top: 10px;
+}
+.add_item_price {
+	margin-top: 10px;
+}
+.red_warning {
+	padding: 8px 10px 8px 10px;
+}
+.be_own_chef {
+	width: 100%;
+}
+/* 									     #sushi
+================================================ */
+#item-1_sushi, #item-2_sushi, #item-3_sushi, #item-4_sushi, #item-5_sushi, #item-6_sushi {
+	cursor: pointer;
+	background: #000;
+	color: white;
+	width: 100%;
+	margin-left: 0px;
+	border-top: 1px solid #000;
+	border-right: none;
+	border-bottom: 2px solid #fff;
+	border-left: none;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;	
+	margin-bottom: 0px;
+}
+.item_odd_first_sushi {
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;		
+}
+.item_odd_price_first_sushi {
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;	
+}
+.item_odd_sushi {
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;	
+}
+.item_odd_price_sushi {
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;	
+}
+.contents_sushi {
+	border: none;
+	margin-top: -2px;
+	margin-bottom: 5px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;	
+}
+.contents_last_sushi {
+	border: none;
+	margin-top: -2px;
+	margin-bottom: 5px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;	
+	/*	this puts the border inside the flexible container w/o messing with the overall width*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}

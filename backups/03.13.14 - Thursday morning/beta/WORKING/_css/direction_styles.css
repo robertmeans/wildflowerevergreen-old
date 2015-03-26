@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+/* 																						 #navigation
+==================================================================================================== */
+nav {
+	border-bottom: 1px solid #ccc;
+}
+nav a:hover { 
+	color: #fff;
+	background-color: #0000ff;
+}
