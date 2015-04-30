@@ -110,7 +110,21 @@ a.printable:hover {
 	float: left;
 	width: 91%;
 	margin: 40px 4.5% 20px 4.5%;
+} 
+#wrapper {
+	#text_container {
+		.tel {
+			line-height: 2em;
+			color: inherit;
+			text-decoration: none;
+			&:hover {
+				color: inherit;
+				text-decoration: underline;
+			}
+		}
+	}
 }
+
 #contact_container {
 	position: relative;
 	width: 100%;
@@ -616,7 +630,14 @@ footer {
 	text-align: center;
 	color: #a5a5a5;
 	font-size: .8em;
-	line-height: 1.4em;
+	line-height: 1.4em; 
+	a {
+		color: inherit;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }
 /* 							   #menu navigation
 ================================================ */

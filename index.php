@@ -63,7 +63,8 @@ Date: 03.21.14
 	<h1>The Wildflower Café, Evergreen, Colorado</h1>
 	<p>Monday - Saturday 7:30 AM - 2:00 PM<br>
 	Sunday 8:00 AM - 2:00 PM<br>
-	303.674.3323</p>
+	<i class="fa fa-phone-square"></i> <a class="tel" tabIndex="-1" href="tel:(303) 674-3323">303.674.3323</a></p>
+
 	<p>Located in historic Downtown Evergreen, Colorado, The Wildflower Café offers a professional grade dose of local atmosphere and a <a href="menu.php">menu</a> that outgrew any reasonable measure of expectations a long time ago.</p>
 	<p>Come see why this local favorite has earned the worldwide reputation for the smartest, most beautiful, happy, good customers in history!</p>
 	<h3>Thursday Nights - Sushi Night</h3>

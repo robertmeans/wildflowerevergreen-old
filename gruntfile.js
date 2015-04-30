@@ -31,7 +31,7 @@ module.exports = function(grunt) {
 				files: ['_css/*.css'],
 			}, //css	
 			hypertext: {
-				files: ['*.php','*.htm']
+				files: ['*.php','*.htm','_includes/*.*']
 			} //hypertext
 		} //watch
 	}) //initConfig
