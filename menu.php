@@ -107,7 +107,7 @@ Date: 03.21.14
 </div>
 <div class="contents" data-rel="item-2">
 
-<span class="category_description">Your Choice</span> <span class="category_description_price">$8.50</span> 
+<span class="category_description">Your Choice</span> <span class="category_description_price">$9.99</span> 
 <span class="category_description">Served with Wild Potatoes</span> 
 <span class="add_item">Egg whites</span> <span class="add_item_price">+$.75</span> 
 <span class="item">Athena</span>
