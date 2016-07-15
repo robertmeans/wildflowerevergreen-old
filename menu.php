@@ -83,19 +83,19 @@ Date: 03.21.14
 <span class="category_includes">Served with Wild Potatoes &amp; English muffin</span> 
 <span class="substitute">Substitute fruit for Wild Potatoes</span> <span class="substitute_price">+$2</span> 
 
-<span class="item">Two Egg Boring Breakfast</span> <span class="item_price">$5.99</span> 
+<span class="item">Two Egg Boring Breakfast</span> <span class="item_price">$6.75</span> 
 <span class="add_item">Add ham, sausage or bacon</span> <span class="add_item_price">$7.99</span> 
-<span class="add_item">Steak or chicken-fried steak</span> <span class="add_item_price">$9.99</span> 
+<span class="add_item">Steak or chicken-fried steak</span> <span class="add_item_price">$10.50</span> 
 
 <span class="item">Double Scramble</span> <span class="item_price">$7.99</span> 
 <span class="item_description">Two eggs, melted cheese served opened-faced</span> 
 <span class="add_item">Add ham, sausage or bacon</span> <span class="add_item_price">$8.75</span> 
 
-<span class="item">Wild Sandwich</span> <span class="item_price">$3.99</span> 
+<span class="item">Wild Sandwich</span> <span class="item_price">$4.50</span> 
 <span class="item_description">One egg, melted cheese, choice of bacon or sausage served on English muffin or biscuit</span> 
-<span class="add_item">With Wild Potatoes</span> <span class="add_item_price">$5.50</span> 
+<span class="add_item">With Wild Potatoes</span> <span class="add_item_price">$5.99</span> 
 
-<span class="item">2*2*2</span> <span class="item_price">$9.99</span> 
+<span class="item">2*2*2</span> <span class="item_price">$10.50</span> 
 <span class="item_description">Two eggs, two pancakes &amp; ham, sausage or bacon</span>
 
 <span class="top"><a href="#top"><img src="_images/top_of_page.png" border="0" width="25" height="26" alt="Top of page"></a></span>
@@ -107,9 +107,9 @@ Date: 03.21.14
 </div>
 <div class="contents" data-rel="item-2">
 
-<span class="category_description">Your Choice</span> <span class="category_description_price">$9.99</span> 
+<span class="category_description">Your Choice</span> <span class="category_description_price">$10.50</span> 
 <span class="category_description">Served with Wild Potatoes</span> 
-<span class="add_item">Egg whites</span> <span class="add_item_price">+$.75</span> 
+<span class="add_item">Egg whites</span> <span class="add_item_price">+$1.00</span> 
 <span class="item">Athena</span>
 <span class="item_description">Sautéed spinach, onions &amp; mushrooms with olives &amp; feta topped with melted mozzarella</span> 
 <span class="item">Out West</span>
@@ -154,18 +154,18 @@ Smothered with Verde<br />
 </div>
 <div class="contents" data-rel="item-3">
 
-<span class="category_description">Single Plate-sized! Pancake</span> <span class="category_description_price">$5.00</span> 
+<span class="category_description">Single Plate-sized! Pancake</span> <span class="category_description_price">$6.25</span> 
 <span class="category_description">Short Stack</span> <span class="category_description_price">$8.00</span> 
-<span class="add_item">Blueberry, banana, pineapple, strawberries, walnuts &amp; white chocolate or peanut butter chips</span> <span class="add_item_price">$1.00 ea.</span> 
+<span class="add_item">Blueberry, banana, pineapple, strawberries, walnuts, chocolate chips &amp; white chocolate or peanut butter chips</span> <span class="add_item_price">$1.00 ea.</span> 
 
-<span class="item">French Toast</span> <span class="item_price">$7.50</span> 
+<span class="item">French Toast</span> <span class="item_price">$8.50</span> 
 <span class="item_description">Texas toast dipped in yummy homemade batter</span> 
-<span class="add_item">Add fruit</span> <span class="add_item_price">$8.99</span> 
+<span class="add_item">Add fruit</span> <span class="add_item_price">$9.99</span> 
 
-<span class="item">Stuffed French Toast</span> <span class="item_price">$7.99</span> 
+<span class="item">Stuffed French Toast</span> <span class="item_price">$8.99</span> 
 <span class="item_description">Texas toast stuffed with strawberry cream cheese</span> 
 
-<span class="item">Monte Cristo</span> <span class="item_price">$8.99</span> 
+<span class="item">Monte Cristo</span> <span class="item_price">$9.99</span> 
 <span class="item_description">Texas toast stuffed with ham, turkey &amp; Swiss cheese then dipped &amp; served with Wild Potatoes</span> 
 
 <span class="item">Fresh Fruit Crepes</span> <span class="item_price">$9.00</span> 
@@ -174,7 +174,7 @@ Smothered with Verde<br />
 <span class="item">Paradise Parfait</span> <span class="item_price">$9.00</span> 
 <span class="item_description">Healthy serving of granola, vanilla yogurt &amp; seasonal fresh fruit served with an English muffin</span> 
 
-<span class="item">Fresh Fruit Bowl</span> <span class="item_price">$7.00</span> 
+<span class="item">Fresh Fruit Bowl</span> <span class="item_price">$8.00</span> 
 <span class="top"><a href="#top"><img src="_images/top_of_page.png" border="0" width="25" height="26" alt="Top of page"></a></span>
 </div>
 
@@ -183,8 +183,12 @@ Smothered with Verde<br />
 	<span class="plus"></span> Wildflower Specialities
 </div>
 <div class="contents" data-rel="item-4">
-<span class="item_first">Huevos Rancheros</span> <span class="item_price">$7.99</span>
+<span class="item_first">Huevos Rancheros</span> <span class="item_price">$8.99</span>
 <span class="item_description">Warm flour tortilla topped with refried beans, homemade chili verde, melted cheese, two eggs, lettuce &amp; tomato</span>
+<span class="add_item">Add chorizo or bacon</span> <span class="add_item_price">$9.99</span>
+
+<span class="item">Chorizo Skillet</span> <span class="item_price">$10.50</span>
+<span class="item_description">Scrambled eggs, sautéed green peppers, sausage &amp; cheese wrapped in flour tortilla, smothered in home made chili verde &amp; served with Wild Potatoes</span>
 
 <span class="item">Buenos Dias aka Breakfast Burrito</span> <span class="item_price">$8.99</span>
 <span class="item_description">Scrambled eggs, sautéed green peppers, sausage &amp; cheese wrapped in flour tortilla, smothered in home made chili verde &amp; served with Wild Potatoes</span>
@@ -197,23 +201,23 @@ Smothered with Verde<br />
 <span class="item_description">Flour tortilla stuffed with beans, cheese, smothered in chili verde &amp; served with lettuce, tomato, sour cream &amp; avocado</span>
 <span class="add_item">Add chicken or beef</span> <span class="add_item_price">$9.25</span>
 
-<span class="item">Protein Platter</span> <span class="item_price">$9.99</span>
+<span class="item">Protein Platter</span> <span class="item_price">$10.50</span>
 <span class="item_description">Mixed veggies, egg whites &amp; feta topped with grilled chicken &amp; served with fruit</span>
 
-<span class="item">The Ricardo</span> <span class="item_price">$9.99</span>
+<span class="item">The Ricardo</span> <span class="item_price">$10.75</span>
 <span class="item_description">Steak smothered in homemade chili verde, topped with melted cheese &amp; served with sliced tomatoes, two eggs &amp; one slice of sourdough</span>
 
-<span class="item">Breakfast Philly</span> <span class="item_price">$9.99</span>
+<span class="item">Breakfast Philly</span> <span class="item_price">$10.50</span>
 <span class="item_description">Steak, egg, sautéed onion &amp; green pepper &amp; cheese served with Wild Potatoes</span>
 
-<span class="item">Fajita Steak or Chicken Skillet</span> <span class="item_price">$8.99</span>
+<span class="item">Fajita Steak or Chicken Skillet</span> <span class="item_price">$9.99</span>
 <span class="item_description">Wild Potatoes topped with sautéed green pepper &amp; onions, avocado, sour cream, salsa, cheese &amp; two eggs served with a muffin</span>
 
-<span class="item">Smothered Potato Skillet</span> <span class="item_price">$6.80</span>
+<span class="item">Smothered Potato Skillet</span> <span class="item_price">$7.99</span>
 <span class="item_description">Wild Potatoes smothered in homemade chili verde, melted cheese &amp; served with a muffin</span>
-<span class="add_item">Add two eggs</span> <span class="add_item_price">$7.99</span>
+<span class="add_item">Add two eggs</span> <span class="add_item_price">$8.75</span>
 
-<span class="item">Papas y Queso Skillet</span> <span class="item_price">$8.99</span>
+<span class="item">Papas y Queso Skillet</span> <span class="item_price">$9.99</span>
 <span class="item_description">Wild Potatoes topped with avocado, sour cream, salsa, melted cheese, two eggs &amp; served with a muffin</span>
 
 <span class="item">Chicken Fried Steak Skillet</span> <span class="item_price">$8.99</span>
@@ -225,14 +229,15 @@ Smothered with Verde<br />
 
 <span class="be_own_chef">Sides &amp; Such</span>
 
-<span class="sides_n_such_left">2 Eggs</span> <span class="sides_n_such_left_price">$2.00</span> <span class="sides_n_such_right">Ham</span> <span class="sides_n_such_right_price">$3.00</span>
-<span class="sides_n_such_left">Fruit Cup</span> <span class="sides_n_such_left_price">$3.00</span> <span class="sides_n_such_right">Pasta Salad</span> <span class="sides_n_such_right_price">$2.50</span>
+<span class="sides_n_such_left">2 Eggs</span> <span class="sides_n_such_left_price">$2.75</span> <span class="sides_n_such_right">Ham</span> <span class="sides_n_such_right_price">$3.50</span>
+<span class="sides_n_such_left">Fruit Cup</span> <span class="sides_n_such_left_price">$3.00</span> <span class="sides_n_such_right">Pasta Salad</span> <span class="sides_n_such_right_price">$3.00</span>
 <span class="sides_n_such_left">Toast </span><span class="sides_n_such_left_price">$1.50</span> <span class="sides_n_such_right">Sour Cream</span> <span class="sides_n_such_right_price">$1.00</span>
 <span class="sides_n_such_left">Cream Cheese</span> <span class="sides_n_such_left_price">$0.75</span> <span class="sides_n_such_right">Wild Potatoes</span> <span class="sides_n_such_right_price">$2.50</span>
-<span class="sides_n_such_left">Sausage</span> <span class="sides_n_such_left_price">$3.00 </span> <span class="sides_n_such_right">Bacon</span> <span class="sides_n_such_right_price">$3.00</span> 
-<span class="sides_n_such_left">French Fries</span> <span class="sides_n_such_left_price">$2.50</span> <span class="sides_n_such_right">Mayo</span> <span class="sides_n_such_right_price">$0.25</span>
-<span class="sides_n_such_left">English Muffin</span> <span class="sides_n_such_left_price">$1.50</span> <span class="sides_n_such_right">Chili Verde</span> <span class="sides_n_such_right_price">$2.75</span> 
+<span class="sides_n_such_left">Sausage</span> <span class="sides_n_such_left_price">$3.00 </span> <span class="sides_n_such_right">Bacon</span> <span class="sides_n_such_right_price">$3.50</span> 
+<span class="sides_n_such_left">French Fries</span> <span class="sides_n_such_left_price">$3.00</span> <span class="sides_n_such_right">Mayo</span> <span class="sides_n_such_right_price">$0.75</span>
+<span class="sides_n_such_left">English Muffin</span> <span class="sides_n_such_left_price">$1.50</span> <span class="sides_n_such_right">Chili Verde</span> <span class="sides_n_such_right_price">$2.45</span> 
 <span class="sides_n_such_left">Sausage Gravy</span> <span class="sides_n_such_left_price">$2.75</span> <span class="sides_n_such_right">Side Green Salad</span> <span class="sides_n_such_right_price">$4.00</span>
+<span class="sides_n_such_left">Chorizo</span> <span class="sides_n_such_left_price">$4.25</span>
 <span class="top"><a href="#top"><img src="_images/top_of_page.png" border="0" width="25" height="26" alt="Top of page"></a></span>
 </div>
  
@@ -240,7 +245,7 @@ Smothered with Verde<br />
 	<span class="plus"></span> Burgers &amp; Chicken
 </div>
 <div class="contents" data-rel="item-5">
-<span class="category_description">Your choice</span> <span class="category_description_price">$9.99</span>
+<span class="category_description">Your choice</span> <span class="category_description_price">$10.50</span>
 <span class="category_description">Served with fries or pasta salad</span>
 
 <span class="item">Supreme Avalanche Burger</span> 
@@ -305,7 +310,7 @@ Smothered with Verde<br />
 <span class="category_description">Served with fries or pasta salad</span>
 <span class="add_item">Green salad or fruit</span> <span class="add_item_price">+$2.00</span>
 
-<span class="blt">BLT</span> <span class="blt_price">$8.99</span> 
+<span class="blt">BLT</span> <span class="blt_price">$9.99</span> 
 <span class="vga">VGA</span> <span class="blt_price">$9.99</span>
 <span class="item_description">A classic or Wildflowered by adding avocado &amp; melted jack both served on whole wheat toast</span>
 
@@ -318,7 +323,7 @@ Smothered with Verde<br />
 <span class="item">Turkey Reuben</span> <span class="item_price">$8.99</span>
 <span class="item_description">Sauerkraut, pepperoncini, tomato, Swiss cheese &amp; 1000 island dressing on rye toast</span>
 
-<span class="item">Righteous Turkey</span> <span class="item_price">$8.99</span>
+<span class="item">Righteous Turkey</span> <span class="item_price">$8.80</span>
 <span class="item_description">Sautéed green peppers, mushrooms, onions, mayo &amp; melted mozzarella on long roll</span>
 
 <span class="item">Philly</span> <span class="item_price">$8.99</span>
@@ -330,7 +335,7 @@ Smothered with Verde<br />
 <span class="item">Marrakech</span> <span class="item_price">$8.99</span>
 <span class="item_description">Homemade hummus, sprouts, cucumber, tomato, carrot, onion &amp; Miso on the side served in pita</span>
 
-<span class="item">Chick en or Steak Fajita Pita</span> <span class="item_price">$8.99</span>
+<span class="item">Chick en or Steak Fajita Pita</span> <span class="item_price">$9.99</span>
 <span class="item_description">Fajita style meat, green peppers, onions, avocado, melted cheese &amp; salsa</span>
 
 <span class="item">Garden Lover Salad</span> <span class="item_price">$7.99</span>
@@ -357,7 +362,7 @@ Smothered with Verde<br />
 	<span class="plus"></span> Saturday &amp; Sunday Only
 </div>
 <div class="contents" data-rel="item-7">
-<span class="category_description">Your choice</span> <span class="category_description_price">$9.99</span>
+<span class="category_description">Your choice</span> <span class="category_description_price">$10.50</span>
 <span class="category_description">Served with homemade hollandaise &amp; wild potatoes</span>
 
 <span class="item">Eggs Benedict</span> <span class="item_description">Grilled ham, tomato &amp; two poached eggs served on English muffin</span>
@@ -382,7 +387,7 @@ Smothered with Verde<br />
 	<span class="plus"></span> Kids Food
 </div>
 <div class="contents" data-rel="item-8">
-<span class="category_description">Your Choice</span> <span class="category_description_price">$5.00</span>
+<span class="category_description">Your Choice</span> <span class="category_description_price">$6.25 w/drink</span>
 <span class="item">PB&amp;J with fries</span> 
 <span class="item">Half turkey &amp; cheese with fries</span> 
 <span class="item">Mickey pancake</span>
@@ -397,16 +402,16 @@ Smothered with Verde<br />
 	<span class="plus"></span> Beverages
 </div>
 <div class="contents_last" data-rel="item-9">
-<span class="beverages_top">Milk</span> <span class="beverages_price_top">$1.00/$2.00</span> 
-<span class="beverages">Chocolate Milk</span> <span class="beverages_price">$2.00/$3.00</span> 
-<span class="beverages">Orange Juice</span> <span class="beverages_price">$2.25/$3.25</span> 
+<span class="beverages_top">Milk</span> <span class="beverages_price_top">$1.75/$2.75</span> 
+<span class="beverages">Chocolate Milk</span> <span class="beverages_price">$2.50/$3.50</span> 
+<span class="beverages">Orange Juice</span> <span class="beverages_price">$3.00/$4.00/$2</span> 
 <span class="beverages">Tomato, Cran or Apple</span> <span class="beverages_price">$1.00/$2.00</span> 
 <span class="beverages">Coffee</span> <span class="beverages_price">$1.95</span> 
 <span class="beverages">Hot or Iced Tea</span> <span class="beverages_price">$2.00</span> 
-<span class="beverages">Chai Tea</span> <span class="beverages_price">$3.00</span> 
+<span class="beverages">Chai Tea</span> <span class="beverages_price">$3.75</span> 
 <span class="beverages">Hot Chocolate</span> <span class="beverages_price">$2.00</span>
 
-<span class="beverages">Coca-Cola, Diet Coke, Barg’s Rootbeer, Sprite or Lemonade</span> <span class="beverages_price">$2.00</span>
+<span class="beverages">Coca-Cola, Diet Coke, Barg’s Rootbeer, Sprite or Lemonade</span> <span class="beverages_price">$2.50</span>
 
 <span class="split_charge">50&cent; Service charge per split charge</span>
 <span class="top"><a href="#top"><img src="_images/top_of_page.png" border="0" width="25" height="26" alt="Top of page"></a></span>

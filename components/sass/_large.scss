@@ -248,7 +248,8 @@ background-image: url(../_images/woodPaperBackgroundPattern.gif);
 	float: left;
 	clear: right;	
 	z-index: 150;
-	background-color: #fff;
+	background-image: url(../_images/woodPaperBackgroundPattern.gif);
+	background-color: #fffff5;
 	float: left;
 	clear: right;
 	margin-top: -8px;
@@ -580,6 +581,7 @@ background-image: url(../_images/woodPaperBackgroundPattern.gif);
 	padding-right: 5px;
 }
 .split_charge {
+	background: #fff;
 	font-size: .9em;
 	line-height: 1.2em;
 	text-align: center;
